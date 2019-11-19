@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Games - Jared O'Connell Portfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/script.js"></script> 
+		<style>
+			body {
+				background: url('imgs/minecraft_build_blur.jpg') no-repeat center center;
+				background-color: #8a81b8;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="large_header">
+			<div class="nav closed_nav">
+				<div class="menu_button" onclick="toggleMobileMenu(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<a href="index.html">
+					<div>Home</div>
+				</a>
+				<a href="experience.html">
+					<div>Experience</div>
+				</a>
+				<a href="games.html">
+					<div>Games</div>
+				</a>
+				<a href="school.html">
+					<div>School</div>
+				</a>
+				<a href="projects.html">
+					<div>Projects</div>
+				</a>
+				<a href="photography.html">
+					<div>Photos</div>
+				</a>
+			</div>
+			<div class="main_message">
+				<h1>Minecraft - The Sandbox Game</h1>
+				<h3>80% coding, 15% planning, 5% playing!</h3>
+			</div>
+		</div>
+		<div class="content">
+			<div class="focus">
+				<h2>My Minecraft Server</h2>
+				<p>I started my Minecraft server in 2013 so I could do things my way.</p>
+				<p>Later, in 2015, I took a class on how to program in Java, and ever since then I have been creating plugins for my server.</p>
+				<p>The server website is <a href="https://www.shadowxcraft.net">https://www.shadowxcraft.net</a></p>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/kitpvp.png" alt="">
+				<h2>ShadowKitPVP</h2>
+				<p>ShadowKitPVP is a plugin that I created in partnership with another team member on my Minecraft server starting February of 2016. It is one of the early large projects that I worked on. It was developed over 360 commits. It primarily uses MySQL for player data storage.</p>
+				<p>This project has a lot of functionality. The features include:</p>
+				<ul>
+					<li>Different battle groupings (Free-For-All, 1v1, 2v2, and Party)</li>
+					<li>Different battle types with different functionality, like building</li>
+					<li>The creation of parties, which are groups of players that battle together</li>
+					<li>Automated kit selection and customization menu</li>
+					<li>Kill-To-Death ratio stats</li>
+					<li>Game Spectating</li>
+					<li>A rank system with leaderboards</li>
+				</ul>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/rollback.jpg" alt="">
+				<h2>RollbackCore</h2>
+				<p>This project is designed to allow a region to be backed up, then later restored. Backups are stored to a binary file of my own design. This is a public, open-source plugin.</p>
+				<p>View the resource page here: <a href="https://www.spigotmc.org/resources/18517/" target="_blank">https://www.spigotmc.org/resources/rollbackcore.18517/</a></p>
+				<p>It is my most popular public resource with over 1600 downloads.</p>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/pvpbots.png" alt="">
+				<div>
+					<h2>PvPBots</h2>
+					<p>The PVP bot project is one of the larger ones I have worked on. The design goal was to create non-player characters whose behavior was like that of a real player. With the current version, the ability of a bot to navigate is realistic. I spawned a few bots into the KitPVP server to test it, without telling the actual players that the bots were fake. See <a href="https://youtu.be/KNhydvuCcz4">this video</a> to see the outcome. Since then, the bots have been improved.</p>
+					<p>I documented all of my progress! Click on <a href="https://www.youtube.com/watch?v=qSBThH3Ucns&list=PLsrqxubx3nFN9M7NDgu8VOTT_ioljScS8" target="_blank">this link for the playlist</a> to view the videos.</p>
+				</div>
+			</div>
+			<div class="text-image-pair">
+				<video muted loop>
+					<source src="imgs/spirit.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+				</video> 
+				<div>
+					<h2>ShadowSpirits</h2>
+					<p>This is a project I am working on to add custom elements to the Prison server. The "Spirits" are moving blobs of particles with behavior. They spawn when players break blocks, and there is a tool used to capture spirits.</p>
+					<p>Hover your mouse over or tap the picture to animate it</p>
+				</div>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/cannon_script.jpg" alt="">
+				<div>
+					<h2>ShadowPrison</h2>
+					<p>This plugin is designed to automate the processes of the new Prison server. To do this, I integrated LuaJ, allowing me and my teammates to script scenes. It utilizes PVPBots with added functionality to guard the common areas.</p>
+					<p>This project has given me the chance to train my teammates how to script. For example, one teammate lives in England, and is far ahead of his classmates in Computer Science thanks to what I have taught him.</p>
+					<p>The picture is of a cannon that we automated. It uses math to calculate a cylinder for any angle we choose, allowing the player to change the angle of the large cannon.</p>
+				</div>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/parkour_bright.png" alt="">
+				<div>
+					<h2>ShadowParkour</h2>
+					<p>ShadowParkour is a simple plugin that automates the parkour system on the server, and keeps track of times to create a leaderboard. The database is done with MySQL.</p>
+				</div>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/oil-lamps.png" alt="">
+				<div>
+					<h2>Oil-Lamps</h2>
+					<p>This is a very simple project that I made public. It is available for download here: <a href="https://www.spigotmc.org/resources/oil-lamps.17842/" target="_blank">https://www.spigotmc.org/resources/oil-lamps.17842/</a></p>
+					<p>This project makes it so that fire can work as usual throught the world, while maintaining specific fire instances where fires are not supposed to be. It also supports user requested features, like making the fires harmless.</p>
+				</div>
+			</div>
+			<p class="copyright">&copy; 2019 Jared O'Connell<p>
+		</div>
+	</body>
+</html>

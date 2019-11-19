@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>School - Jared O'Connell Portfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/script.js"></script> 
+		<style>
+			body {
+				background: linear-gradient(to bottom right, rgba(255, 0, 126, 0.08), rgba(0,0,0,0)), url('imgs/laser_blur.jpg') no-repeat 60% 58%;
+				background-color: #2b0b06;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="large_header">
+			<div class="nav closed_nav">
+				<div class="menu_button" onclick="toggleMobileMenu(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<a href="index.html">
+					<div>Home</div>
+				</a>
+				<a href="experience.html">
+					<div>Experience</div>
+				</a>
+				<a href="games.html">
+					<div>Games</div>
+				</a>
+				<a href="school.html">
+					<div>School</div>
+				</a>
+				<a href="projects.html">
+					<div>Projects</div>
+				</a>
+				<a href="photography.html">
+					<div>Photos</div>
+				</a>
+			</div>
+			<div class="main_message">
+				<h1>School Projects</h1>
+				<h3>Where I exceeded the requirements every time to learn.</h3>
+			</div>
+		</div>
+		<div class="content">
+			<div class="text-image-pair">
+				<img src="imgs/simulator.png" alt="">
+				<h2>Physics Simulator</h2>
+				<p>For my Junior and Senior Projects, I wanted to challenge myself and learn something I had not known before. I chose a physics simulator to allow me to learn more about physics and computer 3D graphics.</p>
+				<p>In the junior version (pictured), I manually did the physics. It was mobile friendly, and allowed customization of the physics equations</p>
+				<p>In the senior version of the project, I used a third party library, and I upgraded the interface. This allowed the simulator to handle more situations. However, it also made it worse at the plotting that the junior version was capable of.</p>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/laser_finished.jpg" alt="">
+				<h2>Laser Text Projector</h2>
+				<p>In this project, my intent was to use a single laser, redirect the beam with mirrors, and, depending on where the beam is directed, turn the laser on or off. This method is raster scanning.</p>
+				<p>I came up with this idea before I took COMP430/System Fundamentals, and the class was the perfect opportunity for me to implement my idea. Some of the things I came up with included a polygon scanner, but I looked it up and that existed. I ended up using a polygon scanner from a laser printer to scan the laser (pictured).</p>
+			</div>
+			<p class="copyright">&copy; 2019 Jared O'Connell<p>
+		</div>
+	</body>
+</html>

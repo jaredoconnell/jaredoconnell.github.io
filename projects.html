@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Projects - Jared O'Connell Portfolio</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="js/script.js"></script> 
+		<style>
+			body {
+				background: url('imgs/bottle_electrolysis.jpg') no-repeat center center;
+				background-color: #233b7e;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="large_header">
+			<div class="nav closed_nav">
+				<div class="menu_button" onclick="toggleMobileMenu(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<a href="index.html">
+					<div>Home</div>
+				</a>
+				<a href="experience.html">
+					<div>Experience</div>
+				</a>
+				<a href="games.html">
+					<div>Games</div>
+				</a>
+				<a href="school.html">
+					<div>School</div>
+				</a>
+				<a href="projects.html">
+					<div>Projects</div>
+				</a>
+				<a href="photography.html">
+					<div>Photos</div>
+				</a>
+			</div>
+			<div class="main_message">
+				<h1>Other Personal Projects</h1>
+				<h3>The other things I do for fun.</h3>
+			</div>
+		</div>
+		<div class="content">
+			<div class="focus">
+				<p>When I am not working on school work, and I am not working on the server, I am often working on a personal project.</p>
+				<p>Here are a few of those projects.</p>
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/polychat.png" alt="">
+				<h2>PolyChat</h2>
+				<p>PolyChat is an in-progress modular chat application.</p>
+				<p>It is designed to be able to be run with any of several user-interfaces, including, but not limited to, terminal, desktop GUI, and mobile GUI.</p>
+				<p>The problem that this program is trying to solve is the fragmentation of instant messaging systems. To allow this program to fix those issues, PolyChat is designed to allow a user to load in software that enables it to communicate with a specific instant messaging service</p>
+				<p>PolyChat is designed in C++ for the maximum portability of the core code.</p>
+				<p>For the terminal interface, we are using the Curses library. On Linux it uses NCurses, and on Windows it uses PDCurses</p>
+				<p>For the standard desktop interface, we are using the LGPL Qt. This desktop interface will have two major modes to fit the user's preferences. The first mode is modular (pictured), which splits up the interface elements so you can have things open on top of what you are working on. The second mode is unified, for those that like it all in one place, and don't mind switching windows every time a message needs a reply.</p>
+				<p>For the mobile interfaces, we will likely use the native interfaces for each platform. For Android, this will be Java-based, and on iOS this will be Swift-based. This will take time to implement due to the internal code being represented in each programming language</p>
+				<p>There is no estimated release date due to this project being done during free time. It is being programmed by me and my programmer friend from High School, Keith.</p>
+				
+			</div>
+			<div class="text-image-pair">
+				<img src="imgs/wire_electrolysis.jpg" alt="">
+				<h2>Water Electrolysis</h2>
+				<p>I started my "hydrogen" projects when I was in 5th grade. I used some wires and batteries, then later a printer power supply, to pass current through water, splitting it into hydrogen and oxygen.</p>
+				<p>The largest challenges of this project included electrode lifespan and hydrogen containment.</p>
+				<p>The containment was an issue because hydrogen is the smallest atom in the universe, making it so the smallest of cracks became a problem. In the end, after at least four revisions, the ideal setup was to use clear tubing that was designed to be pressurized. It was able to contain both gasses so they could be collected in a bottle.</p>
+				<p>Electrode lifespan was a problem because water is part oxygen. Oxygen causes the oxidation of the electrode. Large scale projects often use platinum, but that was not accessible to me. I did not thoroughly investigate this issue thoroughly until an engineering project in high school. With a partner, I tested rods of several different materials and recorded our observations of the results. In the end, the stainless steel and the graphite rod were the most resistant to oxidation.</p>
+				<p>The category of practical applications for this project is energy storage. Even though electrolysis is not 100% efficient, it is an effective way to store energy. Nearly all non-methane-based hydrogen production is done with electrolysis. Several companies are betting on hydrogen technology to be used as a replacement for gasoline in vehicles. One of the major companies is Toyota.</p>
+			</div>
+			<p class="copyright">&copy; 2019 Jared O'Connell<p>
+		</div>
+	</body>
+</html>
